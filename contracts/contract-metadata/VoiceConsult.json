@@ -1,0 +1,1626 @@
+{
+  "contractAddress": "0x6c5bc6a080b48b3abf9d1cee26ea9c2c6e2c102f",
+  "network": "ARC-TESTNET",
+  "deployerWalletId": "3c2464b2-8369-52e2-a782-800bbeca5396",
+  "contract_code_path": "/home/user/app/contracts/VoiceConsult.sol",
+  "contract_compiled_code_path": "/home/user/app/contracts/out/VoiceConsult.sol/VoiceConsult.json",
+  "contract_network_and_links": {
+    "Arc Testnet": "https://explorer.testnet.arc.io/address/0x6c5bc6a080b48b3abf9d1cee26ea9c2c6e2c102f"
+  },
+  "contract_deployments": [
+    {
+      "chain": "Arc Testnet",
+      "address": "0x6c5bc6a080b48b3abf9d1cee26ea9c2c6e2c102f",
+      "explorerUrl": "https://explorer.testnet.arc.io/address/0x6c5bc6a080b48b3abf9d1cee26ea9c2c6e2c102f",
+      "txHash": "0x2f0044b9dd2a27c8a9df4317e804a4384ac0d0a72166bb049e2e81729ca85f98",
+      "deployedAt": "2026-11-01T06:29:34.716Z"
+    },
+    {
+      "chain": "Arc Testnet",
+      "address": "0x74682111c988e780dc2ebbb144ba14235ea3ccc2",
+      "explorerUrl": "https://explorer.testnet.arc.io/address/0x74682111c988e780dc2ebbb144ba14235ea3ccc2",
+      "txHash": "0x8e52d381c1e3278dfdae157029e4901434ed428f655f56e70bb89a9229533fb8",
+      "deployedAt": "2026-10-28T08:47:25.828Z"
+    },
+    {
+      "chain": "Arc Testnet",
+      "address": "0x2cc83ac16b332f84e3b2af99d85ea4c216f0dcd2",
+      "explorerUrl": "https://explorer.testnet.arc.io/address/0x2cc83ac16b332f84e3b2af99d85ea4c216f0dcd2",
+      "txHash": "0x3e433b6104e1d595fbba33688ba07388dcb997b98863a4eb24d04936069adae6",
+      "deployedAt": "2026-10-28T08:20:03.203Z"
+    },
+    {
+      "chain": "Arc Testnet",
+      "address": "0x5f7fda08a039b83e36560908e4f6ce18f2850a42",
+      "explorerUrl": "https://explorer.testnet.arc.io/address/0x5f7fda08a039b83e36560908e4f6ce18f2850a42",
+      "txHash": "0x6f2dab55b8019d338df8ea9ea22a24461dc16eee616a5f19b3ba6988f74a3b9a",
+      "deployedAt": "2026-10-28T06:17:17.164Z"
+    },
+    {
+      "chain": "Arc Testnet",
+      "address": "0x4d95397f7ae25f92b85aed41afdb96cf470fe132",
+      "explorerUrl": "https://explorer.testnet.arc.io/address/0x4d95397f7ae25f92b85aed41afdb96cf470fe132",
+      "txHash": "0x6d0f698231b8066c74ed2be68fb3a67104606486c61cca1558953fada88a0e8d",
+      "deployedAt": "2026-10-28T06:10:52.279Z"
+    },
+    {
+      "chain": "Arc Testnet",
+      "address": "0xb91ce9dfc427dbc13873d7875ac82bb4e8a5b52e",
+      "explorerUrl": "https://explorer.testnet.arc.io/address/0xb91ce9dfc427dbc13873d7875ac82bb4e8a5b52e",
+      "txHash": "0x38d60ade7b2d82e8751f5963e1e5387c17d251d777c16301f4d02c5c2b88bb70",
+      "deployedAt": "2026-10-28T06:01:24.671Z"
+    },
+    {
+      "chain": "Arc Testnet",
+      "address": "0x06a7509d309ffd2302da6b751bcb56ee5fe49f34",
+      "explorerUrl": "https://explorer.testnet.arc.io/address/0x06a7509d309ffd2302da6b751bcb56ee5fe49f34",
+      "txHash": "0x1addd9bf682384bf7ee2a86e1998466990853b36a0fb1194209510303a745931",
+      "deployedAt": "2026-10-17T21:28:59.687Z"
+    }
+  ],
+  "abi": [
+    {
+      "type": "constructor",
+      "inputs": [
+        {
+          "name": "usdcToken_",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "platformTreasury_",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "platformFeeBps_",
+          "type": "uint16",
+          "internalType": "uint16"
+        },
+        {
+          "name": "initialOwner",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "MAX_DURATION_SECONDS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32",
+          "internalType": "uint32"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "MAX_PLATFORM_FEE_BPS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint16",
+          "internalType": "uint16"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "MIN_DURATION_SECONDS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32",
+          "internalType": "uint32"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "NO_SHOW_GRACE",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32",
+          "internalType": "uint32"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "SLOT_DEPOSIT",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint96",
+          "internalType": "uint96"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "TIMELOCK_DELAY",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "acceptSession",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "bookSlot",
+      "inputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "bookSlotWithPermit",
+      "inputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "deadline",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "v",
+          "type": "uint8",
+          "internalType": "uint8"
+        },
+        {
+          "name": "r",
+          "type": "bytes32",
+          "internalType": "bytes32"
+        },
+        {
+          "name": "s",
+          "type": "bytes32",
+          "internalType": "bytes32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "cancelSession",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "cancelSlot",
+      "inputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "claimExpertReadyTimeout",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "claimNoShow",
+      "inputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "claimSlotDeposit",
+      "inputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "confirmSessionStart",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "createSlot",
+      "inputs": [
+        {
+          "name": "scheduledTime",
+          "type": "uint32",
+          "internalType": "uint32"
+        },
+        {
+          "name": "durationSeconds",
+          "type": "uint32",
+          "internalType": "uint32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "deactivateExpert",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "endSession",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "executeFeeChange",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "executeTreasuryChange",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "getAllExpertAddresses",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[]",
+          "internalType": "address[]"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getExpert",
+      "inputs": [
+        {
+          "name": "expertAddr",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "tuple",
+          "internalType": "struct VoiceConsult.Expert",
+          "components": [
+            {
+              "name": "addr",
+              "type": "address",
+              "internalType": "address"
+            },
+            {
+              "name": "ratePerMinute",
+              "type": "uint96",
+              "internalType": "uint96"
+            },
+            {
+              "name": "minimumFee",
+              "type": "uint96",
+              "internalType": "uint96"
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "internalType": "string"
+            },
+            {
+              "name": "bio",
+              "type": "string",
+              "internalType": "string"
+            },
+            {
+              "name": "isActive",
+              "type": "bool",
+              "internalType": "bool"
+            },
+            {
+              "name": "totalEarned",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "sessionsCompleted",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "totalRatingSum",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "ratingCount",
+              "type": "uint256",
+              "internalType": "uint256"
+            }
+          ]
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getExpertSessionIds",
+      "inputs": [
+        {
+          "name": "expertAddr",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256[]",
+          "internalType": "uint256[]"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getExpertSlotIds",
+      "inputs": [
+        {
+          "name": "expertAddr",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256[]",
+          "internalType": "uint256[]"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getSession",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "tuple",
+          "internalType": "struct VoiceConsult.Session",
+          "components": [
+            {
+              "name": "id",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "user",
+              "type": "address",
+              "internalType": "address"
+            },
+            {
+              "name": "expert",
+              "type": "address",
+              "internalType": "address"
+            },
+            {
+              "name": "totalAmount",
+              "type": "uint96",
+              "internalType": "uint96"
+            },
+            {
+              "name": "bookedDuration",
+              "type": "uint32",
+              "internalType": "uint32"
+            },
+            {
+              "name": "startTime",
+              "type": "uint32",
+              "internalType": "uint32"
+            },
+            {
+              "name": "endTime",
+              "type": "uint32",
+              "internalType": "uint32"
+            },
+            {
+              "name": "status",
+              "type": "uint8",
+              "internalType": "enum VoiceConsult.SessionStatus"
+            }
+          ]
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getSessionRatings",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "userScore",
+          "type": "uint8",
+          "internalType": "uint8"
+        },
+        {
+          "name": "expertScore",
+          "type": "uint8",
+          "internalType": "uint8"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getSlot",
+      "inputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "tuple",
+          "internalType": "struct VoiceConsult.Slot",
+          "components": [
+            {
+              "name": "id",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "expert",
+              "type": "address",
+              "internalType": "address"
+            },
+            {
+              "name": "bookedBy",
+              "type": "address",
+              "internalType": "address"
+            },
+            {
+              "name": "sessionId",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "scheduledTime",
+              "type": "uint32",
+              "internalType": "uint32"
+            },
+            {
+              "name": "durationSeconds",
+              "type": "uint32",
+              "internalType": "uint32"
+            },
+            {
+              "name": "status",
+              "type": "uint8",
+              "internalType": "enum VoiceConsult.SlotStatus"
+            }
+          ]
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getUserSessionIds",
+      "inputs": [
+        {
+          "name": "userAddr",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256[]",
+          "internalType": "uint256[]"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "owner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "pendingFeeBps",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint16",
+          "internalType": "uint16"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "pendingFeeReadyAt",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "pendingTreasuryAddr",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "pendingTreasuryReadyAt",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "pendingWithdrawals",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "platformFeeBps",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint16",
+          "internalType": "uint16"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "platformTreasury",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "queueFeeChange",
+      "inputs": [
+        {
+          "name": "newFeeBps",
+          "type": "uint16",
+          "internalType": "uint16"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "queueTreasuryChange",
+      "inputs": [
+        {
+          "name": "newTreasury",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "rateSession",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "score",
+          "type": "uint8",
+          "internalType": "uint8"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "registerExpert",
+      "inputs": [
+        {
+          "name": "ratePerMinute",
+          "type": "uint96",
+          "internalType": "uint96"
+        },
+        {
+          "name": "minimumFee",
+          "type": "uint96",
+          "internalType": "uint96"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "internalType": "string"
+        },
+        {
+          "name": "bio",
+          "type": "string",
+          "internalType": "string"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "renounceOwnership",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "requestSession",
+      "inputs": [
+        {
+          "name": "expertAddr",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "durationSeconds",
+          "type": "uint32",
+          "internalType": "uint32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "requestSessionWithPermit",
+      "inputs": [
+        {
+          "name": "expertAddr",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "durationSeconds",
+          "type": "uint32",
+          "internalType": "uint32"
+        },
+        {
+          "name": "deadline",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "v",
+          "type": "uint8",
+          "internalType": "uint8"
+        },
+        {
+          "name": "r",
+          "type": "bytes32",
+          "internalType": "bytes32"
+        },
+        {
+          "name": "s",
+          "type": "bytes32",
+          "internalType": "bytes32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "transferOwnership",
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "usdcToken",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IERC20"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "withdraw",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "event",
+      "name": "ExpertDeactivated",
+      "inputs": [
+        {
+          "name": "expert",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "ExpertReady",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "ExpertReadyTimeout",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "ExpertRegistered",
+      "inputs": [
+        {
+          "name": "expert",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "ratePerMinute",
+          "type": "uint96",
+          "indexed": false,
+          "internalType": "uint96"
+        },
+        {
+          "name": "minimumFee",
+          "type": "uint96",
+          "indexed": false,
+          "internalType": "uint96"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "FeeChangeExecuted",
+      "inputs": [
+        {
+          "name": "newFeeBps",
+          "type": "uint16",
+          "indexed": false,
+          "internalType": "uint16"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "FeeChangeQueued",
+      "inputs": [
+        {
+          "name": "newFeeBps",
+          "type": "uint16",
+          "indexed": false,
+          "internalType": "uint16"
+        },
+        {
+          "name": "readyAt",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "NoShowClaimed",
+      "inputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "userShare",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "platformShare",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "OwnershipTransferred",
+      "inputs": [
+        {
+          "name": "previousOwner",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "newOwner",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "PlatformFeeUpdated",
+      "inputs": [
+        {
+          "name": "newFeeBps",
+          "type": "uint16",
+          "indexed": false,
+          "internalType": "uint16"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "PlatformTreasuryUpdated",
+      "inputs": [
+        {
+          "name": "newTreasury",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "SessionCancelled",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "SessionEnded",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "actualDuration",
+          "type": "uint32",
+          "indexed": false,
+          "internalType": "uint32"
+        },
+        {
+          "name": "expertPayout",
+          "type": "uint96",
+          "indexed": false,
+          "internalType": "uint96"
+        },
+        {
+          "name": "userRefund",
+          "type": "uint96",
+          "indexed": false,
+          "internalType": "uint96"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "SessionRated",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "rater",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "score",
+          "type": "uint8",
+          "indexed": false,
+          "internalType": "uint8"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "SessionRequested",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "expert",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint96",
+          "indexed": false,
+          "internalType": "uint96"
+        },
+        {
+          "name": "duration",
+          "type": "uint32",
+          "indexed": false,
+          "internalType": "uint32"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "SessionStarted",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "startTime",
+          "type": "uint32",
+          "indexed": false,
+          "internalType": "uint32"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "SlotBooked",
+      "inputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "SlotCancelled",
+      "inputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "SlotCreated",
+      "inputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "expert",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "scheduledTime",
+          "type": "uint32",
+          "indexed": false,
+          "internalType": "uint32"
+        },
+        {
+          "name": "durationSeconds",
+          "type": "uint32",
+          "indexed": false,
+          "internalType": "uint32"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "TreasuryChangeExecuted",
+      "inputs": [
+        {
+          "name": "newTreasury",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "TreasuryChangeQueued",
+      "inputs": [
+        {
+          "name": "newTreasury",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "readyAt",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "Withdrawn",
+      "inputs": [
+        {
+          "name": "recipient",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "error",
+      "name": "AlreadyRated",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "AmountOverflow",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "ExpertAnsweredOnTime",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "ExpertInactive",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "ExpertNotRegistered",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "FeeTooHigh",
+      "inputs": [
+        {
+          "name": "provided",
+          "type": "uint16",
+          "internalType": "uint16"
+        },
+        {
+          "name": "max",
+          "type": "uint16",
+          "internalType": "uint16"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "InsufficientReceived",
+      "inputs": [
+        {
+          "name": "required",
+          "type": "uint96",
+          "internalType": "uint96"
+        },
+        {
+          "name": "received",
+          "type": "uint96",
+          "internalType": "uint96"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "InvalidDuration",
+      "inputs": [
+        {
+          "name": "provided",
+          "type": "uint32",
+          "internalType": "uint32"
+        },
+        {
+          "name": "min",
+          "type": "uint32",
+          "internalType": "uint32"
+        },
+        {
+          "name": "max",
+          "type": "uint32",
+          "internalType": "uint32"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "InvalidRate",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "InvalidScore",
+      "inputs": [
+        {
+          "name": "provided",
+          "type": "uint8",
+          "internalType": "uint8"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "InvalidSessionStatus",
+      "inputs": [
+        {
+          "name": "current",
+          "type": "uint8",
+          "internalType": "uint8"
+        },
+        {
+          "name": "required",
+          "type": "uint8",
+          "internalType": "uint8"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "NoQueuedChange",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "NotSessionExpert",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "NotSessionParticipant",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "NotSessionUser",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "NothingToWithdraw",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "OwnableInvalidOwner",
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "address",
+          "internalType": "address"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "OwnableUnauthorizedAccount",
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address",
+          "internalType": "address"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "ReentrancyGuardReentrantCall",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "SafeERC20FailedOperation",
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address",
+          "internalType": "address"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "SessionNotFound",
+      "inputs": [
+        {
+          "name": "sessionId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "SlotAlreadyBooked",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "SlotInPast",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "SlotNotBookedByUser",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "SlotNotFound",
+      "inputs": [
+        {
+          "name": "slotId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "SlotNotOpen",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "SlotNotOwnedByExpert",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "TimelockNotReady",
+      "inputs": [
+        {
+          "name": "readyAt",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "TimestampOverflow",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "TooEarlyToClaimNoShow",
+      "inputs": [
+        {
+          "name": "claimableAt",
+          "type": "uint32",
+          "internalType": "uint32"
+        },
+        {
+          "name": "now_",
+          "type": "uint32",
+          "internalType": "uint32"
+        }
+      ]
+    },
+    {
+      "type": "error",
+      "name": "ZeroAddress",
+      "inputs": []
+    }
+  ]
+}
