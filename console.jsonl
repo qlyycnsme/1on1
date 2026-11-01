@@ -1233,3 +1233,105 @@
 {"level":"debug","message":"[vite] connected.","timestamp":1793551490964}
 {"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793551732316}
 {"level":"debug","message":"[vite] hot updated: /src/components/SessionRequest.tsx","timestamp":1793551732316}
+{"level":"debug","message":"[vite] connected.","timestamp":1793551743336}
+{"level":"log","message":"restart sse, about to listen","timestamp":1793552033403}
+{"level":"log","message":"listen https://wallet.binance.com/tonbridge/bridge/events?client_id=4501a2868b8c20007a3b3d2e6f67b1b9bac25c2f43c6396c0c507decdb43dd01&user_info=","timestamp":1793552033403}
+{"level":"log","message":"open {\"isTrusted\":true}","timestamp":1793552033798}
+{"level":"log","message":"restart sse, about to listen","timestamp":1793552222931}
+{"level":"log","message":"listen https://wallet.binance.com/tonbridge/bridge/events?client_id=4501a2868b8c20007a3b3d2e6f67b1b9bac25c2f43c6396c0c507decdb43dd01&user_info=","timestamp":1793552222932}
+{"level":"log","message":"open {\"isTrusted\":true}","timestamp":1793552223328}
+{"level":"log","message":"error {\"isTrusted\":true}","timestamp":1793552303716}
+{"level":"log","message":"An error occurred: {\"isTrusted\":true}","timestamp":1793552303716}
+{"level":"log","message":"restart sse, about to listen","timestamp":1793552333408}
+{"level":"log","message":"listen https://wallet.binance.com/tonbridge/bridge/events?client_id=4501a2868b8c20007a3b3d2e6f67b1b9bac25c2f43c6396c0c507decdb43dd01&user_info=","timestamp":1793552333408}
+{"level":"log","message":"open {\"isTrusted\":true}","timestamp":1793552333807}
+{"level":"log","message":"restart sse, about to listen","timestamp":1793552633416}
+{"level":"log","message":"listen https://wallet.binance.com/tonbridge/bridge/events?client_id=4501a2868b8c20007a3b3d2e6f67b1b9bac25c2f43c6396c0c507decdb43dd01&user_info=","timestamp":1793552633416}
+{"level":"log","message":"open {\"isTrusted\":true}","timestamp":1793552633829}
+{"level":"log","message":"restart sse, about to listen","timestamp":1793552933420}
+{"level":"log","message":"listen https://wallet.binance.com/tonbridge/bridge/events?client_id=4501a2868b8c20007a3b3d2e6f67b1b9bac25c2f43c6396c0c507decdb43dd01&user_info=","timestamp":1793552933421}
+{"level":"log","message":"open {\"isTrusted\":true}","timestamp":1793552933837}
+{"level":"log","message":"restart sse, about to listen","timestamp":1793553233426}
+{"level":"log","message":"listen https://wallet.binance.com/tonbridge/bridge/events?client_id=4501a2868b8c20007a3b3d2e6f67b1b9bac25c2f43c6396c0c507decdb43dd01&user_info=","timestamp":1793553233427}
+{"level":"log","message":"open {\"isTrusted\":true}","timestamp":1793553234007}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793553492034}
+{"level":"debug","message":"[vite] hot updated: /src/components/SlotPicker.tsx","timestamp":1793553492034}
+{"level":"debug","message":"[vite] hot updated: /src/components/RegisterExpert.tsx","timestamp":1793553492034}
+{"level":"debug","message":"[vite] hot updated: /src/components/ExpertList.tsx","timestamp":1793553492034}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionRequest.tsx","timestamp":1793553492034}
+{"level":"debug","message":"[vite] hot updated: /src/components/ProfilePage.tsx","timestamp":1793553492034}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionHistory.tsx","timestamp":1793553492034}
+{"level":"debug","message":"[vite] hot updated: /src/components/ScheduleManager.tsx","timestamp":1793553492035}
+{"level":"debug","message":"[vite] hot updated: /src/components/CallRoom.tsx","timestamp":1793553492035}
+{"level":"debug","message":"[vite] hot updated: /src/components/ExpertCard.tsx","timestamp":1793553492035}
+{"level":"error","message":"Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.","timestamp":1793553498955}
+{"level":"debug","message":"[vite] invalidate /src/main.tsx: Could not Fast Refresh (\"true\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports","timestamp":1793553498956}
+{"level":"debug","message":"[vite] hot updated: /src/main.tsx","timestamp":1793553498956}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793553498956}
+{"level":"error","message":"Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.","timestamp":1793553499122}
+{"level":"debug","message":"[vite] invalidate /src/main.tsx: Could not Fast Refresh (\"true\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports","timestamp":1793553499122}
+{"level":"debug","message":"[vite] hot updated: /src/main.tsx","timestamp":1793553499122}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793553499122}
+{"level":"debug","message":"(previous line repeated 2× more)","timestamp":1793553503042}
+{"level":"debug","message":"[vite] hot updated: /src/components/ChainGuard.tsx","timestamp":1793553503042}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793553503042}
+{"level":"debug","message":"(previous line repeated 2× more)","timestamp":1793553503045}
+{"level":"debug","message":"[vite] hot updated: /src/components/ChainGuard.tsx","timestamp":1793553503045}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793553503045}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionRequest.tsx","timestamp":1793553504647}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793553504647}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionRequest.tsx","timestamp":1793553505179}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793553505179}
+{"level":"debug","message":"(previous line repeated 1× more)","timestamp":1793553505969}
+{"level":"debug","message":"[vite] hot updated: /src/components/RegisterExpert.tsx","timestamp":1793553505969}
+{"level":"debug","message":"[vite] hot updated: /src/components/ExpertList.tsx","timestamp":1793553505969}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionRequest.tsx","timestamp":1793553505969}
+{"level":"debug","message":"[vite] hot updated: /src/components/ProfilePage.tsx","timestamp":1793553505969}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionHistory.tsx","timestamp":1793553505969}
+{"level":"debug","message":"[vite] hot updated: /src/components/ScheduleManager.tsx","timestamp":1793553505969}
+{"level":"debug","message":"[vite] hot updated: /src/components/CallRoom.tsx","timestamp":1793553505969}
+{"level":"debug","message":"[vite] hot updated: /src/components/SlotPicker.tsx","timestamp":1793553505969}
+{"level":"debug","message":"[vite] hot updated: /src/components/ExpertCard.tsx","timestamp":1793553505969}
+{"level":"debug","message":"(previous line repeated 1× more)","timestamp":1793553506535}
+{"level":"debug","message":"[vite] hot updated: /src/components/RegisterExpert.tsx","timestamp":1793553506535}
+{"level":"debug","message":"[vite] hot updated: /src/components/ExpertList.tsx","timestamp":1793553506535}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionRequest.tsx","timestamp":1793553506535}
+{"level":"debug","message":"[vite] hot updated: /src/components/ProfilePage.tsx","timestamp":1793553506535}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionHistory.tsx","timestamp":1793553506535}
+{"level":"debug","message":"[vite] hot updated: /src/components/ScheduleManager.tsx","timestamp":1793553506535}
+{"level":"debug","message":"[vite] hot updated: /src/components/CallRoom.tsx","timestamp":1793553506535}
+{"level":"debug","message":"[vite] hot updated: /src/components/SlotPicker.tsx","timestamp":1793553506535}
+{"level":"debug","message":"[vite] hot updated: /src/components/ExpertCard.tsx","timestamp":1793553506535}
+{"level":"debug","message":"[vite] hot updated: /src/components/ChainGuard.tsx","timestamp":1793553506836}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793553506836}
+{"level":"debug","message":"[vite] hot updated: /src/components/ChainGuard.tsx","timestamp":1793553506918}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793553506918}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionRequest.tsx","timestamp":1793553507864}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793553507864}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionRequest.tsx","timestamp":1793553508036}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793553508036}
+{"level":"debug","message":"(previous line repeated 1× more)","timestamp":1793553508755}
+{"level":"debug","message":"[vite] hot updated: /src/components/RegisterExpert.tsx","timestamp":1793553508755}
+{"level":"debug","message":"[vite] hot updated: /src/components/ExpertList.tsx","timestamp":1793553508755}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionRequest.tsx","timestamp":1793553508755}
+{"level":"debug","message":"[vite] hot updated: /src/components/ProfilePage.tsx","timestamp":1793553508755}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionHistory.tsx","timestamp":1793553508755}
+{"level":"debug","message":"[vite] hot updated: /src/components/ScheduleManager.tsx","timestamp":1793553508755}
+{"level":"debug","message":"[vite] hot updated: /src/components/CallRoom.tsx","timestamp":1793553508755}
+{"level":"debug","message":"[vite] hot updated: /src/components/SlotPicker.tsx","timestamp":1793553508755}
+{"level":"debug","message":"[vite] hot updated: /src/components/ExpertCard.tsx","timestamp":1793553508756}
+{"level":"debug","message":"(previous line repeated 1× more)","timestamp":1793553508925}
+{"level":"debug","message":"[vite] hot updated: /src/components/RegisterExpert.tsx","timestamp":1793553508925}
+{"level":"debug","message":"[vite] hot updated: /src/components/ExpertList.tsx","timestamp":1793553508925}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionRequest.tsx","timestamp":1793553508925}
+{"level":"debug","message":"[vite] hot updated: /src/components/ProfilePage.tsx","timestamp":1793553508925}
+{"level":"debug","message":"[vite] hot updated: /src/components/SessionHistory.tsx","timestamp":1793553508925}
+{"level":"debug","message":"[vite] hot updated: /src/components/ScheduleManager.tsx","timestamp":1793553508925}
+{"level":"debug","message":"[vite] hot updated: /src/components/CallRoom.tsx","timestamp":1793553508925}
+{"level":"debug","message":"[vite] hot updated: /src/components/SlotPicker.tsx","timestamp":1793553508925}
+{"level":"debug","message":"[vite] hot updated: /src/components/ExpertCard.tsx","timestamp":1793553508925}
+{"level":"log","message":"restart sse, about to listen","timestamp":1793553533475}
+{"level":"log","message":"listen https://wallet.binance.com/tonbridge/bridge/events?client_id=4501a2868b8c20007a3b3d2e6f67b1b9bac25c2f43c6396c0c507decdb43dd01&user_info=","timestamp":1793553533475}
+{"level":"log","message":"open {\"isTrusted\":true}","timestamp":1793553533888}
+{"level":"log","message":"error {\"isTrusted\":true}","timestamp":1793553568081}
+{"level":"log","message":"An error occurred: {\"isTrusted\":true}","timestamp":1793553568081}

@@ -1,10 +1,10 @@
 /**
  * VoiceConsult contract ABI and address.
- * Deployed on Arc Testnet.
+ * Deployed on Arc Mainnet.
  */
 import artifact from '../contracts/out/VoiceConsult.sol/VoiceConsult.json'
 
-export const VOICE_CONSULT_ADDRESS = '0x6c5bc6a080b48b3abf9d1cee26ea9c2c6e2c102f' as const
+export const VOICE_CONSULT_ADDRESS = '0x1503c0c8D4faC99581C7Bd1f3f2eA3CD0405749f' as const
 
 export const VOICE_CONSULT_ABI = artifact.abi
 

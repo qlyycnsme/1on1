@@ -4,7 +4,7 @@
 
 ## What This App Does
 
-Decentralized one-to-one paid voice consultation platform on Arc Testnet. Any wallet can register as an expert with a per-minute USDC rate and optional minimum fee (起步价). Users browse the expert marketplace, pre-pay USDC (locked in escrow), and start a real-time P2P voice call via WebRTC. When either party ends the call, the smart contract releases USDC proportionally based on actual call duration vs booked duration (subject to the expert's minimum fee floor). Pull-based withdrawal prevents stuck funds if any recipient is blocklisted.
+Decentralized one-to-one paid voice consultation platform on Arc Mainnet. Any wallet can register as an expert with a per-minute USDC rate and optional minimum fee (起步价). Users browse the expert marketplace, pre-pay USDC (locked in escrow), and start a real-time P2P voice call via WebRTC. When either party ends the call, the smart contract releases USDC proportionally based on actual call duration vs booked duration (subject to the expert's minimum fee floor). Pull-based withdrawal prevents stuck funds if any recipient is blocklisted.
 
 ## Tech Stack
 
@@ -12,7 +12,7 @@ Decentralized one-to-one paid voice consultation platform on Arc Testnet. Any wa
 - Web3: wagmi v2, viem v2, ConnectKit
 - Contracts: Solidity 0.8.28 + Foundry + OpenZeppelin 5.1.0. Sources in `contracts/`, build with `bun run contracts:build`.
 - Wallet: injected (MetaMask, etc.)
-- Chain: Arc Testnet (Chain ID: 5042002)
+- Chain: Arc Mainnet (Chain ID: 5042)
 - Token: USDC (6 decimals) at 0x3600000000000000000000000000000000000000
 - Voice: WebRTC P2P (browser-native getUserMedia + RTCPeerConnection)
 - Toasts: Sonner

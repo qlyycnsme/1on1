@@ -2,9 +2,9 @@ import { useState } from 'react'
 import { useReadContract, useWriteContract, useWaitForTransactionReceipt, useAccount, useSignTypedData, usePublicClient } from 'wagmi'
 import { parseUnits, formatUnits } from 'viem'
 import { VOICE_CONSULT, VOICE_CONSULT_ADDRESS, USDC_ADDRESS, USDC_ABI } from '@/contracts'
-import { arcTestnet } from 'viem/chains'
+import { arc } from 'viem/chains'
 
-export const ARC_TESTNET_ID = arcTestnet.id
+export const ARC_TESTNET_ID = arc.id
 
 // ─── Types mirroring contract structs ─────────────────────────────────────────
 

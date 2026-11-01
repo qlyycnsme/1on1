@@ -7,7 +7,7 @@ import {
 } from '@/hooks/useVoiceConsult'
 import { useAccount } from 'wagmi'
 import { buildTxExplorerUrl } from '@/onchain-facts'
-import { arcTestnet } from 'viem/chains'
+import { arc } from 'viem/chains'
 import { useLocale } from '@/hooks/useLocale'
 
 interface Props {
@@ -68,7 +68,7 @@ export function SessionRequest({ expert, onBack, onSessionCreated }: Props) {
             {t.requestSuccessDesc(costDisplay, expert.name)}
           </p>
           <a
-            href={buildTxExplorerUrl(arcTestnet.id, hash)}
+            href={buildTxExplorerUrl(arc.id, hash)}
             target="_blank"
             rel="noreferrer"
             className="text-xs font-medium underline underline-offset-2 mb-6 block"
